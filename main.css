@@ -2,6 +2,7 @@ body {
   margin: 0 30px;
   background-image: url("images/background.png");
   background-size: cover;
+  background-attachment: fixed;
   font-family: 'Helvetica Neue';
 }
 
@@ -69,4 +70,26 @@ span.tag {
 
 span.tag i {
   margin-right: 5px;
+}
+
+#results {
+  margin: 0 auto;
+  display: flex;
+  font-size: 12px;
+  width: 70%;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+}
+
+.result img {
+  width: 50%;
+  height: 50%;
+  margin-right: 10px;
 }
