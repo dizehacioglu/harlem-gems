@@ -10,5 +10,5 @@ var tags = [
 ]
 
 tags.forEach(function(tag) {
-  $('#tags').append('<span class="tag">' + tag + '</span>');
+  $('#tags').append('<span class="tag"><i class="fa fa-times" aria-hidden="true"></i>' + tag + '</span>');
 })

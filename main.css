@@ -3,7 +3,6 @@ body {
   background-image: url("images/background.png");
   background-size: cover;
   font-family: 'Helvetica Neue';
-  font-size: 12px;
 }
 
 #nav {
@@ -14,7 +13,7 @@ body {
 
 #nav h1 {
   margin: 0px;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Fascinate Inline', cursive;
   font-size: 36px;
 }
 
@@ -23,24 +22,51 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  font-size: 12px;
 }
 
 ul li {
   list-style-type: none;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 ul li#sign-up {
+  margin-right: 0px;
   padding: 5px;
   border: 1px solid gray;
   border-radius: 10px;
 }
 
-#tags {
+#content {
+  height: 500px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tags {
+  font-size: 12px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
   padding: 10px;
-  width: 80%;
-  height: 50px;
+  width: 70%;
+  height: 40px;
   background-color: white;
   color: gray;
+  border-radius: 10px;
+}
+
+#tags i.fa-search {
+  font-size: 24px;
+}
+
+span.tag {
+  background-color: gainsboro;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+span.tag i {
+  margin-right: 5px;
 }
